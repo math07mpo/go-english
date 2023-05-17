@@ -1,0 +1,30 @@
+:root{
+  --branco-principal:#FFFFFF;
+  --cinza-secundaria:#F9F9F9;
+  --botão-azul:#167BF7;
+  --cor-de-fundo:#000000;
+  --fonte-principal:'Inter';
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family:var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{margin: 0;
+  padding: 0%;
+}
+.principal{
+  background-image: url("./img/curso_ingles1-removebg-preview\ \(6\)\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 80% 0;
+ 
+}
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
