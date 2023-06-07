@@ -53,3 +53,26 @@ color: var(--cinza-secundaria);
 font-size: 12px;
 
 }
+.secundario{
+align-items: center;
+margin: 0 10em;
+}
+
+
+.descricao--titulo{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0. 1em;
+
+}
+.descricao--texto{
+  color: var(--cinza-secundaria);
+}
+.container--descricao{
+  padding: 1em;
+}
+.secundario--imagem{
+  width: 80%;
+}
+
