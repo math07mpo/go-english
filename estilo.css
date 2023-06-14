@@ -66,13 +66,34 @@ margin: 0 10em;
   margin-bottom: 0. 1em;
 
 }
+
 .descricao--texto{
   color: var(--cinza-secundaria);
 }
+
 .container--descricao{
   padding: 1em;
 }
+
 .secundario--imagem{
   width: 80%;
 }
 
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape--lista{
+display: flex;
+justify-content: center;
+list-style-type: none;
+margin-top: 1em;
+}
+
+.lista--link a{
+text-decoration: none;
+color: var(--branco-principal);
+font-size: 14px;
+margin-left: 1em;
+}
